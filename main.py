@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 import telebot
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
-API_TOKEN = '0'
+API_TOKEN = ''
 
 bot = telebot.TeleBot(API_TOKEN, parse_mode="Markdown")
 user_states = {}
